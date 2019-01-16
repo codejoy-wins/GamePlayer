@@ -57,6 +57,8 @@ function nextGame(){
                 <li>Hold b for black hole</li>
                 <li>Press i to spin around fast</li>
                 <li>Press o to readjust</li>
+                <li>Press n for level 2 or beat level 1</li>
+
                 </ul>
                 </div>
             `,
