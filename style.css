@@ -31,14 +31,14 @@ body{
 }
 #lowering{
     height:1000px;
-    background-color:gray;
+    /* background-color:gray; */
 
 }
 #red{
     display: inline-block;
     height: 70%;
     width: 49.5%;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.507);
     font-size: 6rem;
     font-family: 'Lora', serif;
     /* vertical-align: top; */
@@ -48,7 +48,7 @@ body{
     display: inline-block;
     height: 70%;
     width: 49.5%;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.527);
     text-align: right;
     font-size: 6rem;
     font-family: 'Roboto', sans-serif;
@@ -63,4 +63,10 @@ body{
 }
 #small{
     font-size: 1ch;
+}
+#x{
+    padding: 4rem;
+}
+#y{
+    padding: 4rem;
 }

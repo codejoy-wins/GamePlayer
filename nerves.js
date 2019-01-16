@@ -1,6 +1,24 @@
 function displayGame(){
     var elem = document.getElementById("game");
     elem.innerHTML = `<iframe frameborder="0" src="https://itch.io/embed-upload/1202412?color=0b24ce" allowfullscreen="" width="1280" height="640"></iframe>`;
+    var instructions = document.getElementById("x");
+    instructions.innerHTML = `
+        <div id="small">
+        <ul>
+        <li>Press left shift and space to use jetpack</li>
+        <li>Stay below 1000 temp</li>
+        <li>Press q and e to switch weapons</li>
+        <li>Fire straight ahead with shotgun at eye level to fix glitch</li>
+        <li>Press r to teleport</li>
+        <li>Get 1000 points before songs up.</li>
+
+        </ul>
+        </div>
+    `;
+    var devlog = document.getElementById("y");
+    devlog.innerHTML = `
+        <p>This is my most recent project built from the ground up.</p>
+    `;
 }
 function endGame(){
     var elem = document.getElementById("game");
@@ -23,7 +41,17 @@ function nextGame(){
         {
             "title": "Starsenal 4",
             "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/1135453?color=20f024" allowfullscreen="" width="1280" height="640"></iframe>`,
-            "instructions": "q and e to rotate",
+            "instructions": `
+                <div id="small">
+                <ul>
+                <li>Press q and e to rotate</li>
+                <li>wasd to move</li>
+                <li>Hold b for black hole</li>
+                <li>Press i to spin around fast</li>
+                <li>Press o to readjust</li>
+                </ul>
+                </div>
+            `,
             "devlog": "This was after a failed 2D coding test"
         },
         {
@@ -51,7 +79,7 @@ function nextGame(){
             "title": "Grand Theft Basketball",
             "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/955733?color=d42400" allowfullscreen="" width="1280" height="640"></iframe>`,
             "instructions": "drive to the end and then shoot the basketball",
-            "dev log": "Someone had me make a demo for a video game idea"
+            "devlog": "Someone had me make a demo for a video game idea"
         }
 
     ];
