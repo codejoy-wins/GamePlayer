@@ -1,3 +1,10 @@
+
+// experimental line that redirects to my mobile portfolio if they're mobile
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+    location.replace("https://codejoy-wins.github.io/");
+ }
+
+
 function displayGame(){
     var elem = document.getElementById("game");
     elem.innerHTML = `<iframe frameborder="0" src="https://itch.io/embed-upload/1202412?color=0b24ce" allowfullscreen="" width="1280" height="640"></iframe>`;
