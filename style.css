@@ -70,3 +70,7 @@ body{
 #y{
     padding: 4rem;
 }
+
+a{
+    text-decoration: none;
+}
