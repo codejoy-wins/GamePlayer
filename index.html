@@ -14,13 +14,15 @@
     <div id="container">
         <h1 id="title">Game Player</h1>
         <div id="gamer">
-                <button onclick="displayGame()"><div>Play Game?</div></button>
-                <button onclick="endGame()"><div id="special">Enough with your games.</div></button>
-                <button onclick="nextGame()"><div>Next Game?</div></button>
+                <button onclick="displayGame()"><div id="special">Play Game?</div></button>
+                <div id="miracle">
+                    <button onclick="endGame()"><div id="specialty">End Game</div></button>
+                </div>
+                <button onclick="nextGame()"><div id="special">Next Game?</div></button>
         </div>
         <div id="outergame">
                 <div id="game">
-                    <p>Welcome to maxjann.com  Press the Play Game button to get started.  Press escape to get your mouse back.  I recommend using fullscreen.</p>
+                    
                     <!-- could use window local storage or session to keep array of already played games, helping randomizer -->
                 </div>
         </div>
@@ -28,7 +30,13 @@
                 <!-- Can I divide this gray box evenly with red and blue? Doubtful -->
         <div id="lowering">
             <div id="red">
-                <div class="inside" id="x">Instructions</div>
+                <div class="inside" id="x">
+                    <div id="small">
+                        <h5>Instructions</h5>
+
+                        <p>Welcome to maxjann.com  Press the Play Game button to get started.  Press escape to get your mouse back.  I recommend using fullscreen.</p>
+                    </div>
+                </div>
             </div>
             <div id="blue">
                 <div class="inside" id="y">Dev Log</div>

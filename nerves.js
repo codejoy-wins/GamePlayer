@@ -30,8 +30,16 @@ function displayGame(){
 }
 function endGame(){
     var elem = document.getElementById("game");
-    elem.innerHTML = `<a href="https://codejoy-wins.github.io/"><p>Thanks for playing</p></a>  `
+    elem.innerHTML = `<a href="https://codejoy-wins.github.io/"><p>Thanks for playing</p></a>  `;
+    var x = document.getElementById("x");
+    var y = document.getElementById("y");
+    x.innerHTML = "Jann";
+    y.innerHTML = "Software"
+
 }
+
+
+// next game takes all the work
 function nextGame(){
     var database = [
         {
