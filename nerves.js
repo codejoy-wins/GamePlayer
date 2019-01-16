@@ -88,6 +88,30 @@ function nextGame(){
             "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/955733?color=d42400" allowfullscreen="" width="1280" height="640"></iframe>`,
             "instructions": "drive to the end and then shoot the basketball",
             "devlog": "Someone had me make a demo for a video game idea"
+        },
+        {
+            "title": "First Person Shooter 5",
+            "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/1197968?color=b3b3b3" allowfullscreen="" width="1280" height="640"></iframe>`,
+            "instructions": `
+                <p> Press f to melee.  Point and click to shoot </p>
+            `,
+            "devlog": "Huge animation problems with this one but some cool sounds"
+        },
+        {
+            "title": "Zombiverse",
+            "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/955620?color=3ae3ee" allowfullscreen="" width="1280" height="640"></iframe>`,
+            "instructions": "build upwards and jump around sprint with shift",
+            "devlog": "Should go back and finish.  First time instantiating objects."
+        },
+        {
+            "title": "Killjoy",
+            "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/973488?color=7a07f4" allowfullscreen="" width="1280" height="640"></iframe>`,
+            "instructions":`
+                <div id="small">
+                <p>Not much to this game.  Build and climb around to get a good sniping spot.</p>
+                </div>
+            `,
+            "devlog": " back in the day before I could animate the gun"
         }
 
     ];
