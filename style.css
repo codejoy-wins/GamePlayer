@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+#container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+#container h1{
+    text-align: center;
+}
+#container #gamer{
+    text-align: center;
+}
+#container button{
+    background-color: aqua;
+    padding: 4rem;
+    text-align: right;
+}
+#container button #special{
+    color: red;
+    font-size: 2rem;
+    text-align: right;
+}
+#game{
+    text-align: center;
+    padding: 10rem;
+}
+#lowering{
+    height:1000px;
+    background-color:gray;
+
+}
+#red{
+    display: inline-block;
+    height: 70%;
+    width: 49.5%;
+    background-color: red;
+    font-size: 6rem;
+    font-family: 'Lora', serif;
+    /* vertical-align: top; */
+
+}
+#blue{
+    display: inline-block;
+    height: 70%;
+    width: 49.5%;
+    background-color: blue;
+    text-align: right;
+    font-size: 6rem;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: top;
+
+}
+.inside{
+    height: 50%;
+}
+#outergame{
+    text-align: center;
+}
+#small{
+    font-size: 1ch;
+}
