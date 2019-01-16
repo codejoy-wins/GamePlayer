@@ -13,6 +13,7 @@ function displayGame(){
         <div id="small">
         <ul>
         <li>Press left shift and space to use jetpack</li>
+        <li>Press right shift to come back down to earth</li>
         <li>Stay below 1000 temp</li>
         <li>Press q and e to switch weapons</li>
         <li>Fire straight ahead with shotgun at eye level to fix glitch</li>
