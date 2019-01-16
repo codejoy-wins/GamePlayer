@@ -75,7 +75,9 @@ function nextGame(){
         {
             "title": "Starbros",
             "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/932686?color=ad00f2" allowfullscreen="" width="1024" height="640"></iframe>`,
-            "instructions": "tap space a lot.  Everything is the ground and lets you jump again.",
+            "instructions": `
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yxxDWVSn93c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            `,
             "devlog": "first game ever.  Made with preview and Unity.  Song by XXXtencion"
         },
         {
