@@ -88,8 +88,8 @@ function nextGame(){
             "devlog": "first game ever.  Made with preview and Unity.  Song by XXXtencion"
         },
         {
-            "title": "I am Ghost",
-            "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/959917?color=f7f319" allowfullscreen="" width="1280" height="640"></iframe>`,
+            "title": "I am Forgotten Ghost",
+            "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/1234744?color=6d02ff" allowfullscreen="" width="1280" height="640"></iframe>`,
             "instructions": `
                 <div id="small">
                 <ul>
@@ -143,7 +143,7 @@ function nextGame(){
             "devlog":`
                 <p>Just made.  Weird light show from rotation script.</p>
             `
-        }
+        },
 
     ];
     // var data = [`<iframe frameborder="0" src="https://itch.io/embed-upload/1138684?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`,`<iframe frameborder="0" src="https://itch.io/embed-upload/1135453?color=15f115" allowfullscreen="" width="1280" height="640"></iframe>`,`<iframe frameborder="0" src="https://itch.io/embed-upload/1076577?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`];
