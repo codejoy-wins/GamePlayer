@@ -60,6 +60,7 @@ function nextGame(){
             "instructions": `
                 <div id="small">
                 <ul>
+                <li>Press space to shoot</li>
                 <li>Press q and e to rotate</li>
                 <li>wasd to move</li>
                 <li>Hold b for black hole</li>
