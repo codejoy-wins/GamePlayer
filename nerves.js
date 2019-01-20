@@ -46,13 +46,17 @@ function nextGame(){
             "title": "First Person Shooter 9",
             "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/1202412?color=0b24ce" allowfullscreen="" width="1280" height="640"></iframe>`,
             "instructions": "Left shift and space for jetpack.  Right shift to fly down.  R to teleport",
-            "devlog": "This is my most recent project built from the ground up."
+            "devlog": `
+            <p>Built my own first person controller for this.</p>
+            `
         },
         {
             "title": "Red Grass Island: Apocalypse",
             "code": `<iframe frameborder="0" src="https://itch.io/embed-upload/1076577?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`,
             "instructions": "Pick up the gems with e if that works",
-            "devlog": "This was to explore 3D"
+            "devlog": `
+            <p>This was following a Jimmy Vegas tutorial</p>
+            `
         },
         {
             "title": "Starsenal 4",
@@ -71,7 +75,9 @@ function nextGame(){
                 </ul>
                 </div>
             `,
-            "devlog": "This was after a failed 2D coding test"
+            "devlog": `
+            <p>This was in response to failing a 2D coding test.</p>
+            `
         },
         {
             "title": "Starbros",
