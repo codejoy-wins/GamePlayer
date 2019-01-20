@@ -124,6 +124,18 @@ function nextGame(){
                 </div>
             `,
             "devlog": " back in the day before I could animate the gun"
+        },
+        {
+            "title": "fps10",
+            "code":`<iframe frameborder="0" src="https://itch.io/embed-upload/1234651?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`,
+            "instructions": `
+            <div id="small">
+                <p>Press r to teleport.  Left Shift to boost, right shift to come down. Space to jetpack. Click to shoot.  Q and E to change weapons. m to toggle music.</p>
+            </div>
+            `,
+            "devlog":`
+                <p>Just made.  Weird light show from rotation script.</p>
+            `
         }
 
     ];
