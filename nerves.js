@@ -144,7 +144,18 @@ function nextGame(){
                 <p>Just made.  Weird light show from rotation script.</p>
             `
         },
-
+        {
+            "title": "RGIA 2019",
+            "code":`<iframe frameborder="0" src="https://itch.io/embed-upload/1240848?color=0900f2" allowfullscreen="" width="1280" height="640"></iframe>`,
+            "instructions": `
+            <div id="small">
+                <p>Collect the Axe and the Gems with E.  Swing the axe by clicking.</p>
+            </div>
+            `,
+            "devlog":`
+                <p>No idea why the trees are bugging out!  Update to my broken first 3D game with added UI.</p>
+            `
+        }
     ];
     // var data = [`<iframe frameborder="0" src="https://itch.io/embed-upload/1138684?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`,`<iframe frameborder="0" src="https://itch.io/embed-upload/1135453?color=15f115" allowfullscreen="" width="1280" height="640"></iframe>`,`<iframe frameborder="0" src="https://itch.io/embed-upload/1076577?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`];
     var elem = document.getElementById("game");
