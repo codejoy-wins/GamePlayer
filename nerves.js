@@ -155,7 +155,20 @@ function nextGame(){
             "devlog":`
                 <p>No idea why the trees are bugging out!  Update to my broken first 3D game with added UI.</p>
             `
-        }
+        },
+        {
+            "title": "Race Track",
+            "code":`<iframe frameborder="0" src="https://itch.io/embed-upload/1264783?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`,
+            "instructions": `
+            <div id="small">
+                <p>wasd to move.  Try to get across the track, or use the jump to get to the other side. </p>
+            </div>
+            `,
+            "devlog":`
+                <p>The engine sound is buggy.  I have a hard time with audio.</p>
+            `
+        },
+        // https://codejoy-wins.itch.io/race-track
     ];
     // var data = [`<iframe frameborder="0" src="https://itch.io/embed-upload/1138684?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`,`<iframe frameborder="0" src="https://itch.io/embed-upload/1135453?color=15f115" allowfullscreen="" width="1280" height="640"></iframe>`,`<iframe frameborder="0" src="https://itch.io/embed-upload/1076577?color=333333" allowfullscreen="" width="1280" height="640"></iframe>`];
     var elem = document.getElementById("game");
